@@ -1,0 +1,33 @@
+{
+  "name": "fluent-iot",
+  "title": "Fluent IoT Streams using Reactive Extensions",
+  "description": "Example on how to use Reactive Extensions RX to power the Internet of Things",
+  "version": "0.0.1",
+  "homepage": "https://github.com/RichardSlater/TODO",
+  "author": {
+    "name": "Richard Slater",
+    "url": "https://github.com/RichardSlater/TODO/blob/master/authors.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RichardSlater/TODO.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+  	"rx": "*",
+  	"tail": "*"
+  	},
+  "jshintConfig": {
+  	"esnext": true
+  },
+  "keywords": [
+    "IoT",
+    "Internet of Things",
+    "IoE",
+    "Internet of Everything",
+    "Reactive",
+    "Events",
+    "Rx",
+    "RxJS"
+  ]
+}
