@@ -14,5 +14,6 @@ Vagrant.configure(2) do |config|
     chef.add_recipe "apt"
     chef.add_recipe "apache2"
     chef.add_recipe "nodejs"
+    chef.add_recipe "lirc"
   end
 end
