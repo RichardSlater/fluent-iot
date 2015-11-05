@@ -17,5 +17,6 @@ Vagrant.configure(2) do |config|
     chef.add_recipe "apache2"
     chef.add_recipe "nodejs"
     chef.add_recipe "lirc"
+    chef.add_recipe "colorprompt"
   end
 end

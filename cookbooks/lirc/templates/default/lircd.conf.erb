@@ -1,0 +1,59 @@
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0-pre1(default) on Fri Oct 23 20:33:34 2015
+#
+# contributed by Richard Slater
+#
+# brand: AuraGlow
+# model no. of remote control: Unknown
+# devices being controlled by this remote: AuraGlow 15W Remote Controlled Color Changing LED
+#
+
+begin remote
+
+  name  AuraGlow Remote
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9096  4344
+  one           642  1588
+  zero          642   470
+  ptrail        645
+  repeat       9090  2131
+  pre_data_bits   16
+  pre_data       0xF7
+  gap          106584
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_UP                   0x00FF
+          KEY_DOWN                 0x807F
+          KEY_0                    0x40BF
+          KEY_1                    0xC03F
+          KEY_A                    0x20DF
+          KEY_B                    0xA05F
+          KEY_C                    0x609F
+          KEY_D                    0x10EF
+          KEY_E                    0x906F
+          KEY_F                    0x50AF
+          KEY_G                    0x30CF
+          KEY_H                    0xB04F
+          KEY_I                    0x708F
+          KEY_J                    0x08F7
+          KEY_K                    0x8877
+          KEY_L                    0x48B7
+          KEY_M                    0x28D7
+          KEY_N                    0xA857
+          KEY_P                    0xE01F
+          KEY_O                    0x6897
+          KEY_Q                    0xD02F
+          KEY_R                    0xF00F
+          KEY_S                    0xC837
+          KEY_T                    0xE817
+       end codes
+
+end remote
