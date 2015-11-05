@@ -14,11 +14,12 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-  	"rx": "*",
-  	"tail": "*"
-  	},
+    "bootstrap": "^3.3.5",
+    "rx": "*",
+    "tail": "*"
+  },
   "jshintConfig": {
-  	"esnext": true
+    "esnext": true
   },
   "keywords": [
     "IoT",
