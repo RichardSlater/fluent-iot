@@ -4,7 +4,7 @@
 Vagrant.configure(2) do |config|
   config.vm.box = "debian/jessie64"
   config.vm.network "forwarded_port", guest: 80, host: 8080
-  config.vm.synced_folder "./src/main/nodejs/htdocs/", "/vagrant_data"
+  config.vm.synced_folder "./src/main/nodejs", "/vagrant_data"
 
   config.ssh.shell = "bash -c 'BASH_ENV=/etc/profile exec bash'"
 

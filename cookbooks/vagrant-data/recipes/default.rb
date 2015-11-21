@@ -5,7 +5,7 @@ directory '/var/www/html' do
 end
 
 link '/var/www/html' do
-  to '/vagrant_data'
+  to '/vagrant_data/htdocs'
   action :create
   link_type :symbolic
 end
